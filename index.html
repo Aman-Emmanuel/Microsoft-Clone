@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Microsoft - Official Home Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <div class="navbar flex justify-between items-center md:p-4">
+        <div class="flex justify-center items-center md:order-2 cursor-pointer">
+          <div
+            class="hamburger cursor-pointer inline-block my-4 mx-3 md:hidden"
+          >
+            <div class="lines h-[1px] my-1 w-5 mx-1 bg-black"></div>
+            <div class="lines h-[1px] my-1 w-5 mx-1 bg-black"></div>
+            <div class="lines h-[1px] my-1 w-5 mx-1 bg-black"></div>
+          </div>
+          <div class="search md:hidden">
+            <img class="h-6" src="search.png" alt="" />
+          </div>
+        </div>
+        <div class="logo flex space-x-4 text-center md:order-1 cursor-pointer">
+          <div><img class="h-6" src="logo.png" alt="" /></div>
+          <div
+            class="features space-x-4 w-fit inset-0 absolute md:static md:flex -translate-x-96 md:translate-x-0"
+          >
+            <div class="fitems hover:underline underline-offset-4 decoration-2">
+              Microsoft 365
+            </div>
+            <div class="fitems hover:underline underline-offset-4 decoration-2">
+              Office
+            </div>
+            <div class="fitems hover:underline underline-offset-4 decoration-2">
+              Windows
+            </div>
+            <div class="fitems hover:underline underline-offset-4 decoration-2">
+              Support
+            </div>
+          </div>
+        </div>
+        <div class="cart flex items-center md:order-3 space-x-4 cursor-pointer">
+          <div class="search hidden md:block">
+            <img class="h-6" src="search.png" alt="" />
+          </div>
+          <div class="cart"><img class="h-6" src="cart.png" alt="" /></div>
+          <div class="profile">
+            <img class="h-6" src="profile.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="section flex flex-col-reverse md:flex-row justify-between md:bg-[#c8e2fb]"
+      >
+        <div
+          class="left px-4 bg-white md:bg-[#c8e2fb] space-y-2 md:flex md:flex-col justify-center"
+        >
+          <h1 class="text-4xl mx-1">Microsoft 365</h1>
+          <p class="mx-1">Everything you need to achieve more in less time</p>
+          <div class="flex flex-wrap space-y-2">
+            <button
+              class="bg-blue-800 px-4 font-semibold mx-1 text-white h-10 rounded-sm"
+            >
+              For one person
+            </button>
+            <p class="font-semibold mx-1 cursor-pointer">For up to six people ></p>
+          </div>
+        </div>
+        <div class="right">
+          <picture>
+            <source srcset="image.avif" type="image/avif" />
+            <source srcset="image.webp" type="image/webp" />
+            <img
+              class="w-[100vw] md:w-auto"
+              decoding="async"
+              loading="lazy"
+              src="image.jpg"
+              alt="an avif image"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="section grid grid-cols-1 sm:grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4 my-10">
+        <div class="cards">
+          <img class="w-fit" src="bing.jpg" alt="" />
+          <h1 class="font-semibold text-2xl my-4" >Introducing the new Bing</h1>
+          <p class="my-4" >
+            Your AI-powered copilot for the web. Ask questions. Chat to refine
+            results. Get comprehensive answers and creative inspiration.
+          </p>
+          <div class="link1 my-4 text-blue-800 font-semibold hover:underline ">Join the Bing Preview ></div>
+          <div class="link2 text-blue-800 font-semibold hover:underline ">Learn about the new Bing in Windows ></div>
+        </div>
+        <div class="cards">
+          <img class="w-fit" src="edge.jfif" alt="" />
+          <h1 class="font-semibold text-2xl my-4" >Designed for life today - and tomorrow</h1>
+          <p class="my-4" >
+            The next-generation of games. Your goals. Friends and family.
+            Windows 11 was made to bring you closer to everything you love.
+          </p>
+          <div class="link1 text-blue-800 font-semibold hover:underline ">See if your PC is ready ></div>
+        </div>
+        <div class="cards">
+          <img class="w-fit" src="windows.jpg" alt="" />
+          <h1 class="font-semibold text-2xl my-4" >Microsoft Edge</h1>
+          <p class="my-4" >
+            World-class performance with more privacy, more productivity and
+            more value while you browse.
+          </p>
+          <div class="link1 text-blue-800 font-semibold hover:underline ">Download now ></div>
+        </div>
+        <div class="cards">
+          <img class="w-fit" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Soft-CP-OneDriveCampaignRefresh-2?wid=515&hei=293&fit=crop" alt="" />
+          <h1 class="font-semibold text-2xl my-4" >Microsoft OneDrive</h1>
+          <p class="my-4" >
+            World-class performance with more privacy, more productivity and
+            more value while you browse.
+          </p>
+          <div class="link1 text-blue-800 font-semibold hover:underline ">Learn More ></div>
+        </div>
+      </div>
+      <div class="section mb-10">
+        <picture class="">
+          <source srcset="image2.avif" type="image/avif" />
+          <source srcset="image2.webp" type="image/webp" />
+          <img
+            class="w-[100vw] md:w-auto mb-10"
+            decoding="async"
+            loading="lazy"
+            src="image2.jpg"
+            alt="an avif image"
+          />
+        </picture>
+        <div class=" text inline-block space-y-4">
+          <h1 class="font-semibold text-2xl">Organise your life</h1>
+          <p class="w-72">Keep your ideas and notes organised with OneNote.</p>
+          <button class="bg-blue-800 px-4 font-semibold text-white h-10 rounded-sm">
+            Learn more
+          </button>
+        </div>
+      </div>
+      <div class="business">
+        <h1 class="font-semibold text-2xl mt-16">For Business</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4">
+            <div class="item1">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Microsoft-Teams-Commercial?wid=515&hei=293&fit=crop" alt="">
+                <h1 class="font-semibold text-2xl my-4" >Get Microsoft Teams for free</h1>                                            
+                <p class="my-4" >Online meetings, chat and shared cloud storage - all in one place.</p>
+                <div class="link1 my-4 text-blue-800 font-semibold hover:underline">Sign up for free ></div>
+            </div>
+            <div class="item2">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-For-Business-Woman-Teams-Call?wid=515&hei=293&fit=crop" alt="">
+                <h1 class="font-semibold text-2xl my-4" >Get Microsoft Teams for free</h1>
+                <p class="my-4" > Get Microsoft Teams, secure cloud storage and premium apps across devices with a free one-month Microsoft 365 Business Standard trial. </p>
+                <div class="link1 my-4 text-blue-800 font-semibold hover:underline">Start your free trial ></div>
+            </div>
+            <div class="item3">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/JIC-DPS-CP01?wid=515&hei=293&fit=crop" alt="">
+                <h1 class="font-semibold text-2xl my-4" >Get Microsoft Teams for free</h1>
+                <p class="my-4" > Securely stream your Windows experience from the Microsoft cloud to any device. </p>
+                <div class="link1 my-4 text-blue-800 font-semibold hover:underline">Get it today ></div>
+            </div>
+            <div class="item4">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-Viva-Renata-Empower?wid=515&hei=293&fit=crop" alt="">
+                <h1 class="font-semibold text-2xl my-4" >Get Microsoft Teams for free</h1>
+                <p class="my-4" > Bring together connection, purpose, insight and growth with the first employee experience platform built for the hybrid era </p>
+                <div class="link1 my-4 text-blue-800 font-semibold hover:underline">Learn more about Microsoft viva ></div>
+            </div>
+          </div>
+      </div>
+      <div class="links flex space-x-6 mb-4">
+        <p>Follow Microsoft</p>
+        <div class="facebook cursor-pointer"><img class="h-6" src="facebook.png" alt=""></div>
+        <div class="twitter cursor-pointer"><img class="h-6" src="twitter.png" alt=""></div>
+        <div class="linkedin cursor-pointer"><img class="h-6" src="linkedin.png" alt=""></div>
+      </div>
+      <div class="flex justify-end ">
+        <button class=" button flex space-x-4 bg-[#d9d9d9] py-2 px-4 hover:bg-white hover:shadow-slate-500/50 hover:shadow-sm rounded-sm mb-14">
+            <div class="arrow self-center"><img class="h-3" src="arrow.png" alt=""></div>
+            <p>Back to top</p>
+        </button>
+      </div>
+      <footer class="bg-[#f2f2f2]">
+        <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-8 py-8 px-10">
+            <div class="box1 space-y-4 text-[12px]">
+                <h1 class="font-semibold  text-slate-600 text-sm">Microsoft Store</h1>
+                <p class="cursor-pointer hover:underline text-slate-500" >Account profile</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Download Center</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Returns</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Order tracking</p>
+            </div>
+            <div class="box2 text-[12px] space-y-4">
+                <h1 class="font-semibold  text-slate-600 text-sm">Education</h1>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft in education</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Devices for education</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft Teams for education</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft 365 Education</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Office Education</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Educator training and development</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Deals for students and parents</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Azure for students</p>
+            </div>
+            <div class="box3 text-[12px] space-y-4">
+                <h1 class="font-semibold  text-slate-600 text-sm">Business</h1>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft Cloud</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft Security</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Azure</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Dynamic 365</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft 365</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft Advertising</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft Industry</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft Teams</p>
+            </div>
+            <div class="box4 text-[12px] space-y-4">
+                <h1 class="font-semibold text-slate-600 text-sm">Developer & IT</h1>
+                <p class="cursor-pointer hover:underline text-slate-500" >Developer Center</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Documentation</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft Learn</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft Tech Community</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Azure Marketplace</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >AppSource</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Microsoft power Platform</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Visual Studio</p>
+            </div>
+            <div class="box5 text-[12px] space-y-4">
+                <h1 class="font-semibold text-slate-600 text-sm">Company</h1>
+                <p class="cursor-pointer hover:underline text-slate-500" >Carrers</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >About Microsoft</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Company news</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Privacy at microsoft</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Investors</p>
+                <p class="cursor-pointer hover:underline text-slate-500" >Sustainability</p>
+            </div>
+        </div>
+        <div class="copywright md:flex space-y-4 md:space-y-0 justify-between text-xs text-slate-500 mx-10 pb-6">
+            <div class="flex space-x-2">
+                <img class="h-4" src="globe.png" alt="">
+                <p>English(Pakistan)</p>
+            </div>
+            <div class="flex space-x-4 ">
+                <p class="cursor-pointer hover:underline" >Contact Microsoft</p>
+                <p class="cursor-pointer hover:underline" >Privacy</p>
+                <p class="cursor-pointer hover:underline" >Term of use</p>
+                <p class="cursor-pointer hover:underline" >Trademarks</p>
+                <p class="cursor-pointer hover:underline" >About our ads</p>
+                <p>&copy; Microsoft 2023</p>
+            </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
